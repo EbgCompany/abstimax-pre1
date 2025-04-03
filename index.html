@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Abstimax Pré-sell</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Abstimax | Tratamento Anti-Drogas</title>
 
   <!-- UTMFY -->
   <script>
@@ -15,11 +15,10 @@
     document.head.appendChild(a);
   </script>
 
-  <!-- Facebook Pixel -->
+  <!-- Meta Pixel -->
   <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){
+    n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};
     if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
     n.queue=[];t=b.createElement(e);t.async=!0;
     t.src=v;s=b.getElementsByTagName(e)[0];
@@ -32,16 +31,25 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #0d0d0d;
+      background: #0a0a0a;
       color: #fff;
-      padding: 30px;
       max-width: 600px;
       margin: auto;
+      padding: 30px 20px;
+    }
+
+    .stars {
+      text-align: center;
+      font-size: 24px;
+      color: #FFD700;
+      margin-bottom: 10px;
     }
 
     h1 {
+      font-size: 26px;
+      text-align: center;
       color: #00ff88;
-      font-size: 28px;
+      text-shadow: 1px 1px 4px #000;
       margin-bottom: 20px;
     }
 
@@ -49,6 +57,7 @@
       font-size: 18px;
       line-height: 1.6;
       margin-bottom: 20px;
+      color: #e0e0e0;
     }
 
     .cta {
@@ -56,48 +65,64 @@
       margin: 30px 0;
     }
 
-    .cta a {
+    .pulse-button {
       background: #25D366;
       color: #fff;
       padding: 16px 24px;
+      border: none;
       border-radius: 12px;
       font-size: 18px;
       text-decoration: none;
       display: inline-block;
+      animation: pulse 1.5s infinite;
+      box-shadow: 0 0 0 rgba(37, 211, 102, 0.7);
+      transition: box-shadow 0.3s ease-in-out;
     }
 
-    .cta a:hover {
+    .pulse-button:hover {
       background: #1da955;
+    }
+
+    @keyframes pulse {
+      0% {
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+      }
+      70% {
+        box-shadow: 0 0 0 12px rgba(37, 211, 102, 0);
+      }
+      100% {
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+      }
     }
   </style>
 </head>
 
 <body>
-  <h1>Essa Gota Salvou Meu Irmão das Drogas em Menos de 7 Dias</h1>
+  <div class="stars">⭐⭐⭐⭐⭐</div>
 
-  <p>Depois de anos se afundando no crack, no álcool e em dívidas, meu irmão finalmente teve uma virada — e não foi com internação, nem remédio controlado. Foi com esse tratamento natural que a gente descobriu por indicação de uma psicóloga.</p>
+  <h1>A Gota Natural Que Salvou Meu Irmão das Drogas</h1>
+
+  <p>Durante anos, meu irmão se destruiu com álcool, crack e cocaína. Depois de tentativas frustradas com internações e remédios caros, encontramos uma solução 100% natural indicada por uma psicóloga — e tudo mudou.</p>
 
   <div class="cta">
-    <a href="https://wa.me/554699859302" onclick="fbq('trackCustom', 'whatsapp_click');" target="_blank">
+    <a href="https://wa.me/554699859302" onclick="fbq('trackCustom', 'whatsapp_click');" class="pulse-button" target="_blank">
       Falar com Especialista no WhatsApp
     </a>
   </div>
 
-  <p>Se você tem alguém se destruindo nas drogas, não espere o fundo do poço. Com apenas algumas gotas por dia, essa solução tem ajudado mais de 7.000 famílias a recuperar quem amam, sem sofrimento, sem recaídas e sem precisar internar.</p>
-
-  <p>Funciona em dependência de álcool, crack, cocaína, maconha e até remédio controlado. É discreto, seguro e pode ser usado dentro de casa.</p>
+  <p>Mais de 7.000 famílias já usaram esse tratamento. São apenas algumas gotas por dia — sem efeitos colaterais, sem sofrimento e com resultados rápidos. Funciona em dependência de álcool, drogas sintéticas, maconha, crack e remédio controlado.</p>
 
   <div class="cta">
-    <a href="https://wa.me/554699859302" onclick="fbq('trackCustom', 'whatsapp_click');" target="_blank">
-      Receber Atendimento Agora no WhatsApp
+    <a href="https://wa.me/554699859302" onclick="fbq('trackCustom', 'whatsapp_click');" class="pulse-button" target="_blank">
+      Quero Começar Agora
     </a>
   </div>
 
-  <p>Se você ama essa pessoa, não perca mais tempo. Clique agora, fale com um especialista e comece o tratamento ainda hoje.</p>
+  <p>Se você ama alguém que está se destruindo, não espere o fundo do poço. Clique no botão abaixo e fale com um especialista agora. Você pode salvar uma vida hoje.</p>
 
   <div class="cta">
-    <a href="https://wa.me/554699859302" onclick="fbq('trackCustom', 'whatsapp_click');" target="_blank">
-      Quero Salvar Quem Eu Amo
+    <a href="https://wa.me/554699859302" onclick="fbq('trackCustom', 'whatsapp_click');" class="pulse-button" target="_blank">
+      Iniciar Atendimento Imediato
     </a>
   </div>
 </body>
